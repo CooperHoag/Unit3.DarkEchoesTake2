@@ -42,3 +42,23 @@ main {
 .episodes {
   padding: 0.25rem;
 }
+
+.details h2 {
+  padding: .5ch;
+}
+
+.details h3 {
+  padding: .5ch;
+}
+
+.details p {
+  padding: .5ch;
+}
+
+.details button {
+  margin: .5ch;
+  background-color:lightgrey;
+  color: black;
+  padding: 8px 150px;
+  cursor: pointer;
+}

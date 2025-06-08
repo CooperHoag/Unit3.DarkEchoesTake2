@@ -22,8 +22,10 @@ export default function App() {
 
     return (
       <section className="details">
-        <h2>{selectedEpisode.title}</h2>
+        <h2>Epsiode {selectedEpisode.id}</h2>
+        <h3>{selectedEpisode.title}</h3>
         <p>{selectedEpisode.description}</p>
+        <button>Watch Now</button>
       </section>
     );
   }
